@@ -951,7 +951,7 @@ class Software(qdb.base.QiitaObject):
                     warnings.warn(
                         'Plugin "%s" version "%s" config file does not match '
                         'with stored information. Check the config file or '
-                        'run "qiita plugin update" to update the plugin '
+                        'run "qiita plugins update" to update the plugin '
                         'information. Offending values: %s'
                         % (name, version, ", ".join(sorted(warning_values))),
                         qdb.exceptions.QiitaDBWarning)
